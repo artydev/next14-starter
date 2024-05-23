@@ -1,5 +1,8 @@
 ## Getting Started
 
+##Video
+[NextJS-14](https://www.youtube.com/watch?v=vCOSTG10Y4o)
+
 First, install the dependencies:
 
 ```bash
