@@ -3,9 +3,16 @@ import Link from "next/link";
 const Links = () => {
   return (
     <>
-      <div>
-        <Link href="/chat">Chat</Link>
-        <Link href="/rag">Rag</Link>
+      <div className="sidebarlinks">
+        <div>
+          <Link href="/chat">
+              <div>Chat!!!</div>
+
+              </Link>
+        </div>
+        <div>
+          <Link href="/rag">Rag</Link>
+        </div>
       </div>
     </>
   );

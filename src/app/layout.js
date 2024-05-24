@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
+
 import "./globals.css";
+import "./bootstrap.min.css"
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import Sidebar from "@/components/sidebar/Sidebar";
@@ -13,17 +15,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className={inter.className}>
-        <div class="container">
-          <div>
-            <Sidebar />
+        <div>
+          <Navbar />
+          <div class="innercontainer">
+            <div className="sidebar">
+              <Sidebar />
+            </div>
+            <div className="main">
+              {children}
+            </div>
           </div>
-          <div>
-            <Navbar />
-            {children}
-            <Footer />
-          </div>
+          <Footer />
         </div>
       </body>
     </html>

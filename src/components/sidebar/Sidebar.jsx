@@ -2,7 +2,7 @@ import Links from "./links"
 
 
 const Sidebar = () => {
-    return <Links />
+    return    <Links />
 }
 
 export default Sidebar
