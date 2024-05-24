@@ -3,7 +3,17 @@ body {
     color: white;
 }
 
+.container {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+}
+
+
 a {
     color:orange
 }
+
 

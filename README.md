@@ -3,6 +3,9 @@
 ##Video
 [NextJS-14](https://www.youtube.com/watch?v=vCOSTG10Y4o)
 
+##Helper
+[https://ui.shadcn.com/](https://ui.shadcn.com/)
+
 First, install the dependencies:
 
 ```bash

@@ -1,8 +1,8 @@
-
+import Links from "./links"
 
 
 const Sidebar = () => {
-    return <div>Sidebar</div>
+    return <Links />
 }
 
 export default Sidebar
