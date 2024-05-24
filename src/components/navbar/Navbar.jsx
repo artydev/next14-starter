@@ -1,12 +1,12 @@
-import Links from "./links";
+
+import Links from "./links/Links";
+import styles from "./navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div>Logo</div>
-      <div>
-        <Links />
-      </div>
+    <div className={styles.container}>
+      <div className={styles.logo}>Logo</div>
+      <Links />
     </div>
   );
 };
